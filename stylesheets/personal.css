@@ -1,98 +1,35 @@
-/* line 17, ../../../../../../Users/sampurcell/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
+/* line 4, ../sass/personal.scss */
+* {
   margin: 0;
   padding: 0;
-  border: 0;
-  font: inherit;
-  font-size: 100%;
-  vertical-align: baseline;
-}
-
-/* line 22, ../../../../../../Users/sampurcell/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
-html {
-  line-height: 1;
-}
-
-/* line 24, ../../../../../../Users/sampurcell/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
-ol, ul {
-  list-style: none;
-}
-
-/* line 26, ../../../../../../Users/sampurcell/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
-}
-
-/* line 28, ../../../../../../Users/sampurcell/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
-caption, th, td {
-  text-align: left;
-  font-weight: normal;
-  vertical-align: middle;
-}
-
-/* line 30, ../../../../../../Users/sampurcell/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
-q, blockquote {
-  quotes: none;
-}
-/* line 103, ../../../../../../Users/sampurcell/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
-q:before, q:after, blockquote:before, blockquote:after {
-  content: "";
-  content: none;
-}
-
-/* line 32, ../../../../../../Users/sampurcell/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
-a img {
-  border: none;
-}
-
-/* line 116, ../../../../../../Users/sampurcell/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
-article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
-  display: block;
-}
-
-/* line 5, ../sass/personal.scss */
-* {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 
-/* line 7, ../sass/personal.scss */
+/* line 10, ../sass/personal.scss */
 .fr {
   float: right;
 }
 
-/* line 8, ../sass/personal.scss */
+/* line 11, ../sass/personal.scss */
 .fl {
   float: left;
 }
 
-/* line 9, ../sass/personal.scss */
+/* line 12, ../sass/personal.scss */
 .w50 {
   width: 50%;
 }
 
-/* line 11, ../sass/personal.scss */
+/* line 14, ../sass/personal.scss */
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 14px;
   background: url("../images/dark_fish_skin.png");
 }
 
-/* line 18, ../sass/personal.scss */
+/* line 21, ../sass/personal.scss */
 h1 {
   font-size: 2.3em;
   padding: 15px;
@@ -106,13 +43,13 @@ h1 {
   line-height: 360px;
 }
 
-/* line 33, ../sass/personal.scss */
+/* line 36, ../sass/personal.scss */
 h2 {
   font-size: 1.8em;
   padding: 15px 0 5px 25px;
 }
 
-/* line 40, ../sass/personal.scss */
+/* line 43, ../sass/personal.scss */
 p {
   padding: 7px 15px;
   text-indent: 1em;
@@ -122,11 +59,22 @@ p {
   margin: 0 auto;
 }
 
-/* line 49, ../sass/personal.scss */
+/* line 52, ../sass/personal.scss */
+ul {
+  list-style-type: bullet;
+}
+/* line 56, ../sass/personal.scss */
+ul li {
+  list-style: bullet;
+  margin: 10px;
+}
+
+/* line 63, ../sass/personal.scss */
 .page-wrap {
   display: block;
   width: 960px;
   background: #fcfcfc;
+  padding: 15px;
   margin: 20px auto;
   -webkit-box-shadow: 0px 0px 10px #050505;
   -moz-box-shadow: 0px 0px 10px #050505;
@@ -140,23 +88,23 @@ p {
   *zoom: 1;
 }
 
-/* line 61, ../sass/personal.scss */
+/* line 76, ../sass/personal.scss */
 nav {
   position: relative;
   width: 100%;
   background: #f5f5f5;
   padding: 10px;
 }
-/* line 67, ../sass/personal.scss */
+/* line 82, ../sass/personal.scss */
 nav:after {
   position: absolute;
 }
-/* line 74, ../sass/personal.scss */
+/* line 89, ../sass/personal.scss */
 nav li {
   display: inline-block;
   width: 20%;
 }
-/* line 79, ../sass/personal.scss */
+/* line 94, ../sass/personal.scss */
 nav li a {
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -193,29 +141,29 @@ nav li a {
   /* IE6-9 */
   color: #444;
 }
-/* line 101, ../sass/personal.scss */
+/* line 116, ../sass/personal.scss */
 nav li a:hover {
   background: #F9AE45;
 }
 
-/* line 112, ../sass/personal.scss */
+/* line 127, ../sass/personal.scss */
 dl dt {
   margin: 10px;
   font-size: 1.6em;
 }
-/* line 119, ../sass/personal.scss */
+/* line 134, ../sass/personal.scss */
 dl dd {
   list-style: bullet;
   margin-left: 5%;
 }
 
 @media all and (max-width: 960px) {
-  /* line 128, ../sass/personal.scss */
+  /* line 143, ../sass/personal.scss */
   .page-wrap {
     width: 95%;
   }
 
-  /* line 134, ../sass/personal.scss */
+  /* line 149, ../sass/personal.scss */
   h1 {
     white-space: nowrap;
   }

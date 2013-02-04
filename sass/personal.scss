@@ -1,8 +1,11 @@
-@import "compass/reset";
 @import "compass/css3";
 @import "compass/utilities/general/clearfix";
 
-* { @include box-sizing(border-box); }
+* { 
+	margin: 0;
+	padding: 0;
+	@include box-sizing(border-box);
+}
 
 .fr { float: right; }
 .fl { float: left; }
@@ -46,11 +49,23 @@ p {
 	margin: 0 auto;
 }
 
+ul { 
+
+	list-style-type: bullet;
+
+	li { 
+		list-style: bullet;
+		margin: 10px;
+	}
+
+}
+
 .page-wrap { 
 
 	display: block;
 	width: 960px;
 	background: #fcfcfc;
+	padding: 15px;
 	margin: 20px auto;
 	@include box-shadow(0px 0px 10px #050505);
 	@include border-radius(4px 4px 0 0);
