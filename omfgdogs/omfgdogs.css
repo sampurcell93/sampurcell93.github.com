@@ -1,0 +1,27 @@
+/* line 19, ../sass/screen.scss */
+body {
+  background: url("../omfgdogs.gif") repeat;
+  position: relative;
+  height: 100%;
+}
+
+/* line 27, ../sass/screen.scss */
+embed {
+  opacity: 0;
+  -moz-opacity: 0;
+  -webkit-opacity: 0;
+}
+
+/* line 34, ../sass/screen.scss */
+a {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  display: block;
+  width: 200px;
+  height: 100px;
+  line-height: 100px;
+  background: #f9f9f9;
+  color: #313131;
+  text-align: center;
+}
