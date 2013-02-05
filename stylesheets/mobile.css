@@ -1,0 +1,23 @@
+.page-wrap { 
+
+	width: 95%; 
+
+}
+
+h1 { 
+	line-height: 40px;
+	color: #313131;
+	text-shadow: none;
+}
+
+
+nav li { 
+
+		width: 100%; 
+}
+
+nav li a { text-transform: uppercase; }
+
+
+h2 { border-bottom: 1px solid #ccc;}
+
